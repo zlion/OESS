@@ -1,0 +1,150 @@
+{
+	"results": [
+		{
+			"remote_requester": null,
+			"status": null,
+			"last_modified_by": {
+				"email": "lzhang9@es.net",
+				"is_admin": "0",
+				"user_id": "6529",
+				"last_name": "Zhang",
+				"first_name": "Liang",
+				"username": "lzhang9@es.net"
+			},
+			"external_identifier": null,
+			"remove_time": "",
+			"paths": [
+			],
+			"state": "active",
+			"remote_url": null,
+			"created_on": "04/04/2022 17:26:07",
+			"provision_time": "",
+			"circuit_id": "393119",
+			"workgroup_id": "1504",
+			"created_on_epoch": "1649093167",
+			"last_modified_on_epoch": "1649093167",
+			"name": "4fa0627f-b43c-11ec-9709-fa163ea7bc0e",
+			"reason": "Circuit Creation",
+			"description": "test-l2-liang",
+			"endpoints": [
+				{
+					"short_node_name": "core2.sunn",
+					"start_epoch": null,
+					"node": "core2.sunn.net.internet2.edu",
+					"cloud_account_id": "",
+					"controller": "nso",
+					"entity": "SENSE",
+					"node_id": "9367",
+					"jumbo": 1,
+					"interface": "HundredGigE0/0/0/24",
+					"tag": "3020",
+					"mtu": "9000",
+					"circuit_id": "393119",
+					"inner_tag": null,
+					"interface_id": "126599",
+					"description": "PDP SUNN-CONN-ESNET-1 | I2-SUNN-SUNN-100GE-9031",
+					"cloud_interconnect_type": null,
+					"unit": "3020",
+					"bandwidth": "0",
+					"entity_id": "3825",
+					"circuit_ep_id": "879403",
+					"type": "circuit",
+					"cloud_connection_id": "",
+					"operational_state": "up"
+				}
+			],
+			"workgroup": {
+				"max_circuits": "20",
+				"workgroup_id": "1504",
+				"external_id": "I2-S198784",
+				"status": "active",
+				"name": "SENSE",
+				"type": "normal",
+				"description": ""
+			},
+			"user_id": "6529",
+			"created_by": {
+				"email": "lzhang9@es.net",
+				"is_admin": "0",
+				"user_id": "6529",
+				"last_name": "Zhang",
+				"first_name": "Liang",
+				"username": "lzhang9@es.net"
+			},
+			"last_modified_on": "04/04/2022 17:26:07"
+		},
+		{
+			"remote_requester": null,
+			"status": null,
+			"last_modified_by": {
+				"email": "lzhang9@es.net",
+				"is_admin": "0",
+				"user_id": "6529",
+				"last_name": "Zhang",
+				"first_name": "Liang",
+				"username": "lzhang9@es.net"
+			},
+			"external_identifier": null,
+			"remove_time": "",
+			"paths": [
+			],
+			"state": "active",
+			"remote_url": null,
+			"created_on": "04/25/2022 15:50:42",
+			"provision_time": "",
+			"circuit_id": "393154",
+			"workgroup_id": "1504",
+			"created_on_epoch": "1650901842",
+			"last_modified_on_epoch": "1650901842",
+			"name": "75bb5804-c4af-11ec-9709-fa163ea7bc0e",
+			"reason": "Circuit Creation",
+			"description": "test-l2connect-liang",
+			"endpoints": [
+				{
+					"short_node_name": "core2.chic",
+					"start_epoch": null,
+					"node": "core2.chic.net.internet2.edu",
+					"cloud_account_id": "",
+					"controller": "nso",
+					"entity": "SENSE",
+					"node_id": "9320",
+					"jumbo": 1,
+					"interface": "HundredGigE0/0/0/26",
+					"tag": "3020",
+					"mtu": "9000",
+					"circuit_id": "393154",
+					"inner_tag": null,
+					"interface_id": "124214",
+					"description": "PDP CHIC-CONN-ESNET-1",
+					"cloud_interconnect_type": null,
+					"unit": "3020",
+					"bandwidth": "0",
+					"entity_id": "3825",
+					"circuit_ep_id": "879466",
+					"type": "circuit",
+					"cloud_connection_id": "",
+					"operational_state": "up"
+				}
+			],
+			"workgroup": {
+				"max_circuits": "20",
+				"workgroup_id": "1504",
+				"external_id": "I2-S198784",
+				"status": "active",
+				"name": "SENSE",
+				"type": "normal",
+				"description": ""
+			},
+			"user_id": "6529",
+			"created_by": {
+				"email": "lzhang9@es.net",
+				"is_admin": "0",
+				"user_id": "6529",
+				"last_name": "Zhang",
+				"first_name": "Liang",
+				"username": "lzhang9@es.net"
+			},
+			"last_modified_on": "04/25/2022 15:50:42"
+		}
+	]
+}

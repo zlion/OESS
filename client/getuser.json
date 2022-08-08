@@ -1,0 +1,24 @@
+{
+	"results": [
+		{
+			"email": "lzhang9@es.net",
+			"is_admin": "0",
+			"workgroups": [
+				{
+					"workgroup_id": "1504",
+					"status": "active",
+					"name": "SENSE",
+					"description": "",
+					"max_circuits": "20",
+					"external_id": "I2-S198784",
+					"type": "normal",
+					"role": "normal"
+				}
+			],
+			"user_id": "6534",
+			"last_name": "API",
+			"first_name": "SENSE",
+			"username": "lzhang9"
+		}
+	]
+}

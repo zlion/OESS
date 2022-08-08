@@ -1,0 +1,123 @@
+[
+	{
+		"created_by_id": "6529",
+		"last_modified_by": {
+			"email": "lzhang9@es.net",
+			"status": "active",
+			"is_admin": 0,
+			"user_id": "6529",
+			"usernames": [
+				"lzhang9@es.net"
+			],
+			"last_name": "Zhang",
+			"first_name": "Liang"
+		},
+		"vrf_id": "3710",
+		"state": "active",
+		"prefix_limit": 1000,
+		"last_modified_by_id": "6529",
+		"workgroup_id": "1504",
+		"last_modified": "1659370907",
+		"name": "sense-l3-test",
+		"description": "sense-l3-test",
+		"endpoints": [
+			{
+				"peers": [
+					{
+						"bfd": 0,
+						"vrf_ep_peer_id": "211927",
+						"ip_version": "ipv4",
+						"peer_ip": "192.168.1.1/24",
+						"peer_asn": "1",
+						"vrf_ep_id": "2779",
+						"local_ip": "192.168.1.2/24",
+						"md5_key": "",
+						"operational_state": "down"
+					}
+				],
+				"vrf_endpoint_id": "2779",
+				"short_node_name": "core2.sunn",
+				"vrf_id": "3710",
+				"node": "core2.sunn.net.internet2.edu",
+				"cloud_account_id": "",
+				"controller": "nso",
+				"entity": "SENSE",
+				"node_id": "9367",
+				"jumbo": 1,
+				"interface": "HundredGigE0/0/0/24",
+				"tag": "3020",
+				"mtu": "9000",
+				"inner_tag": null,
+				"interface_id": "126599",
+				"description": "PDPSUNN-CONN-ESNET-1|I2-SUNN-SUNN-100GE-9031",
+				"cloud_interconnect_type": null,
+				"unit": "3020",
+				"bandwidth": "0",
+				"entity_id": "3825",
+				"type": "vrf",
+				"cloud_connection_id": "",
+				"operational_state": "up"
+			},
+			{
+				"peers": [
+					{
+						"bfd": 0,
+						"vrf_ep_peer_id": "211928",
+						"ip_version": "ipv4",
+						"peer_ip": "192.168.1.2/24",
+						"peer_asn": "1",
+						"vrf_ep_id": "2780",
+						"local_ip": "192.168.1.1/24",
+						"md5_key": "",
+						"operational_state": "down"
+					}
+				],
+				"vrf_endpoint_id": "2780",
+				"short_node_name": "core1.wash",
+				"vrf_id": "3710",
+				"node": "core1.wash.net.internet2.edu",
+				"cloud_account_id": "",
+				"controller": "nso",
+				"entity": "FABRIC",
+				"node_id": "9390",
+				"jumbo": 1,
+				"interface": "HundredGigE0/0/0/28",
+				"tag": "3010",
+				"mtu": "9000",
+				"inner_tag": null,
+				"interface_id": "127498",
+				"description": "PDPWASH-CONN-FABRIC-1|I2-WASH-WASH-100GE-193964",
+				"cloud_interconnect_type": null,
+				"unit": "3010",
+				"bandwidth": "0",
+				"entity_id": "3809",
+				"type": "vrf",
+				"cloud_connection_id": "",
+				"operational_state": "up"
+			}
+		],
+		"local_asn": "55038",
+		"created": "1659370907",
+		"workgroup": {
+			"max_circuits": "20",
+			"workgroup_id": "1504",
+			"external_id": "I2-S198784",
+			"status": "active",
+			"name": "SENSE",
+			"type": "normal",
+			"description": ""
+		},
+		"operational_state": "down",
+		"created_by": {
+			"email": "lzhang9@es.net",
+			"status": "active",
+			"is_admin": 0,
+			"user_id": "6529",
+			"usernames": [
+				"lzhang9@es.net"
+			],
+			"last_name": "Zhang",
+			"first_name": "Liang"
+		}
+	}
+]

@@ -1,0 +1,133 @@
+{
+	"results": [
+		{
+			"remote_requester": null,
+			"status": null,
+			"last_modified_by": {
+				"email": "lzhang9@es.net",
+				"status": "active",
+				"is_admin": 0,
+				"user_id": "6534",
+				"usernames": [
+					"lzhang9"
+				],
+				"last_name": "API",
+				"first_name": "SENSE"
+			},
+			"external_identifier": null,
+			"remove_time": "",
+			"paths": [
+			],
+			"state": "active",
+			"remote_url": null,
+			"created_on": "06/07/2022 20:25:56",
+			"provision_time": "",
+			"circuit_id": "393318",
+			"workgroup_id": "1504",
+			"created_on_epoch": "1654633556",
+			"last_modified_on_epoch": "1654646872",
+			"name": "I2-MP-MP-VLAN-393318",
+			"reason": "Circuit Creation",
+			"description": "urn:ogf:network:al2s.internet2.net:oess:l2switching:conn+5de76f42-6d70-463a-8500-a3bbd32c85ee:resource+links-Connection_1:vlan+3003",
+			"endpoints": [
+				{
+					"short_node_name": "core1.wash",
+					"start_epoch": null,
+					"node": "core1.wash.net.internet2.edu",
+					"cloud_account_id": null,
+					"controller": "nso",
+					"entity": "FABRIC",
+					"node_id": "9390",
+					"jumbo": 1,
+					"interface": "HundredGigE0/0/0/28",
+					"tag": "3003",
+					"mtu": "9000",
+					"circuit_id": "393318",
+					"inner_tag": null,
+					"interface_id": "127498",
+					"description": "PDPWASH-CONN-FABRIC-1|I2-WASH-WASH-100GE-193964",
+					"cloud_interconnect_type": null,
+					"unit": "3003",
+					"bandwidth": "0",
+					"entity_id": "3809",
+					"circuit_ep_id": "879628",
+					"type": "circuit",
+					"cloud_connection_id": null,
+					"operational_state": "up"
+				},
+				{
+					"short_node_name": "core2.sunn",
+					"start_epoch": null,
+					"node": "core2.sunn.net.internet2.edu",
+					"cloud_account_id": null,
+					"controller": "nso",
+					"entity": null,
+					"node_id": "9367",
+					"jumbo": 1,
+					"interface": "HundredGigE0/0/0/24",
+					"tag": "3003",
+					"mtu": "9000",
+					"circuit_id": "393318",
+					"inner_tag": null,
+					"interface_id": "126599",
+					"description": "PDPSUNN-CONN-ESNET-1|I2-SUNN-SUNN-100GE-9031",
+					"cloud_interconnect_type": null,
+					"unit": "3003",
+					"bandwidth": "0",
+					"entity_id": null,
+					"circuit_ep_id": "879629",
+					"type": "circuit",
+					"cloud_connection_id": null,
+					"operational_state": "up"
+				},
+				{
+					"short_node_name": "core2.chic",
+					"start_epoch": null,
+					"node": "core2.chic.net.internet2.edu",
+					"cloud_account_id": null,
+					"controller": "nso",
+					"entity": null,
+					"node_id": "9320",
+					"jumbo": 1,
+					"interface": "HundredGigE0/0/0/26",
+					"tag": "1032",
+					"mtu": "9000",
+					"circuit_id": "393318",
+					"inner_tag": null,
+					"interface_id": "124214",
+					"description": "PDPCHIC-CONN-ESNET-1|I2-CHIC-CHIC-100GE-9028",
+					"cloud_interconnect_type": null,
+					"unit": "1032",
+					"bandwidth": "0",
+					"entity_id": null,
+					"circuit_ep_id": "879630",
+					"type": "circuit",
+					"cloud_connection_id": null,
+					"operational_state": "up"
+				}
+			],
+			"workgroup": {
+				"max_circuits": "20",
+				"workgroup_id": "1504",
+				"external_id": "I2-S198784",
+				"status": "active",
+				"name": "SENSE",
+				"type": "normal",
+				"description": ""
+			},
+			"user_id": "6534",
+			"created_by": {
+				"email": "lzhang9@es.net",
+				"status": "active",
+				"is_admin": 0,
+				"user_id": "6534",
+				"usernames": [
+					"lzhang9"
+				],
+				"last_name": "API",
+				"first_name": "SENSE"
+			},
+			"last_modified_on": "06/08/2022 00:07:52"
+		}
+	]
+}

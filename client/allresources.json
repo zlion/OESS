@@ -1,0 +1,2718 @@
+{
+	"results": [
+		{
+			"interface_name": "TenGigE0/0/0/0/0",
+			"remote_links": [
+			],
+			"node_name": "agg1.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1241",
+				"status": "active",
+				"name": "OSHEAN",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "50",
+				"external_id": "I2-S67013",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124324",
+			"description": "PDPASHB-CONN-ORACLE-1|I2-ASHB-ASHB-10GE-189847[NO-MONITOR]",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9323",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/0/0",
+			"remote_links": [
+			],
+			"node_name": "agg2.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1151",
+				"status": "active",
+				"name": "FDA",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S55312",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124400",
+			"description": "PDPASHB-CONN-AWS-2|I2-ASHB-ASHB-10GE-191785",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9324",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/2/1",
+			"remote_links": [
+			],
+			"node_name": "agg2.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "961",
+				"status": "active",
+				"name": "CEN",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S12546",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124405",
+			"description": "PDPASHB-CONN-CEN-1|I2-ASHB-ASHB-10GE-185900",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9324",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/2/2",
+			"remote_links": [
+			],
+			"node_name": "agg2.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1417",
+				"status": "active",
+				"name": "KINBER",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190026",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124406",
+			"description": "PDPASHB-CONN-KINBER-2|I2-ASHB-ASHB-10GE-192551",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9324",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "Bundle-Ether110",
+			"remote_links": [
+			],
+			"node_name": "agg3.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1411",
+				"status": "active",
+				"name": "GCP",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S192114",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127682",
+			"description": "PDPASHB-CONN-GOOGLE-110G",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9325",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "Bundle-Ether5",
+			"remote_links": [
+			],
+			"node_name": "agg3.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1411",
+				"status": "active",
+				"name": "GCP",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S192114",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128273",
+			"description": "PDPASHB-CONN-GOOGLE-3100G|I2-ASHB-ASHB-LAG-193942",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9325",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "Bundle-Ether6",
+			"remote_links": [
+			],
+			"node_name": "agg3.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1508",
+				"status": "active",
+				"name": "Oracle",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": null,
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128346",
+			"description": "PDPASHB-CONN-ORACLE-3100G|I2-ASHB-ASHB-LAG-193960",
+			"is_owner": 0,
+			"vlan_tag_range": "100-4094",
+			"node_id": "9325",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/4",
+			"remote_links": [
+			],
+			"node_name": "agg3.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1413",
+				"status": "active",
+				"name": "Azure",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124562",
+			"description": "PDPASHB-CONN-MICROSOFT-7|I2-ASHB-ASHB-100GE-194999",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9325",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/11/1",
+			"remote_links": [
+			],
+			"node_name": "agg3.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1413",
+				"status": "active",
+				"name": "Azure",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124525",
+			"description": "PDPASHB-CONN-MICROSOFT-1|I2-ASHB-ASHB-10GE-191905",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9325",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/11/2",
+			"remote_links": [
+			],
+			"node_name": "agg3.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124526",
+			"description": "PDPASHB-CONN-AWS-3|I2-ASHB-ASHB-10GE-191912",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9325",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/11/3",
+			"remote_links": [
+			],
+			"node_name": "agg3.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124527",
+			"description": "PDPASHB-CONN-AWS-4|I2-ASHB-ASHB-10GE-192178",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9325",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/12/0",
+			"remote_links": [
+			],
+			"node_name": "agg3.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124528",
+			"description": "PDPASHB-CONN-AWS-5|I2-ASHB-ASHB-10GE-187750",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9325",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/12/1",
+			"remote_links": [
+			],
+			"node_name": "agg3.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1413",
+				"status": "active",
+				"name": "Azure",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124529",
+			"description": "PDPASHB-CONN-MICROSOFT-2|I2-ASHB-ASHB-10GE-191910",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9325",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/12/2",
+			"remote_links": [
+			],
+			"node_name": "agg3.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1413",
+				"status": "active",
+				"name": "Azure",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124530",
+			"description": "PDPASHB-CONN-MICROSOFT-3|I2-ASHB-ASHB-10GE-184190",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9325",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/12/3",
+			"remote_links": [
+			],
+			"node_name": "agg3.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124531",
+			"description": "PDPASHB-CONN-AWS-13|I2-ASHB-ASHB-10GE-192778",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9325",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/13/0",
+			"remote_links": [
+			],
+			"node_name": "agg3.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1417",
+				"status": "active",
+				"name": "KINBER",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190026",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124532",
+			"description": "PDPASHB-CONN-KINBER-3|I2-ASHB-ASHB-10GE-192550",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9325",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/13/1",
+			"remote_links": [
+			],
+			"node_name": "agg3.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124533",
+			"description": "PDPASHB-CONN-AWS-6|I2-ASHB-ASHB-10GE-192564",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9325",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/13/2",
+			"remote_links": [
+			],
+			"node_name": "agg3.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124534",
+			"description": "PDPASHB-CONN-AWS-14|I2-ASHB-ASHB-10GE-193918dxcon-fgvbi1rg",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9325",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "Bundle-Ether110",
+			"remote_links": [
+			],
+			"node_name": "agg3.dall3.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1411",
+				"status": "active",
+				"name": "GCP",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S192114",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127997",
+			"description": "PDPDALL3-CONN-GOOGLE-110G",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9396",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/11/2",
+			"remote_links": [
+			],
+			"node_name": "agg3.dall3.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128001",
+			"description": "PDPDALL3-CONN-AWS-3|I2-DALL3-DALL3-10GE-196918",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9396",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/13/0",
+			"remote_links": [
+			],
+			"node_name": "agg3.dall3.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1413",
+				"status": "active",
+				"name": "Azure",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128007",
+			"description": "PDPDALL3-CONN-MICROSOFT-1|I2-DALL3-DALL3-10GE-193703",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9396",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/13/2",
+			"remote_links": [
+			],
+			"node_name": "agg3.dall3.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1413",
+				"status": "active",
+				"name": "Azure",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128009",
+			"description": "PDPDALL3-CONN-MICROSOFT-2|I2-DALL3-DALL3-10GE-187234",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9396",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/13/3",
+			"remote_links": [
+			],
+			"node_name": "agg3.dall3.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128010",
+			"description": "PDPDALL3-CONN-AWS-6|I2-DALL3-DALL3-10GE-193916dxcon-fhc44u76",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9396",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "Bundle-Ether100",
+			"remote_links": [
+			],
+			"node_name": "agg3.eqch.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1411",
+				"status": "active",
+				"name": "GCP",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S192114",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127907",
+			"description": "PDPEQCH-CONN-GOOGLE-110G",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9391",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/10/2",
+			"remote_links": [
+			],
+			"node_name": "agg3.eqch.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1413",
+				"status": "active",
+				"name": "Azure",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127911",
+			"description": "PDPEQCH-CONN-MICROSOFT-1|I2-EQCH-EQCH-10GE-185913",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9391",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/11/0",
+			"remote_links": [
+			],
+			"node_name": "agg3.eqch.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127913",
+			"description": "PDPEQCH-CONN-AWS-1|I2-EQCH-EQCH-10GE-190959",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9391",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/11/3",
+			"remote_links": [
+			],
+			"node_name": "agg3.eqch.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127916",
+			"description": "PDPEQCH-CONN-AWS-5|I2-EQCH-EQCH-10GE-193925dxcon-fh4tyhz0",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9391",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "Bundle-Ether112",
+			"remote_links": [
+			],
+			"node_name": "agg3.sanj.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1411",
+				"status": "active",
+				"name": "GCP",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S192114",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128097",
+			"description": "PDPSANJ-CONN-GOOGLE-110G",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9393",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/3",
+			"remote_links": [
+			],
+			"node_name": "agg3.sanj.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1413",
+				"status": "active",
+				"name": "Azure",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128134",
+			"description": "PDPSANJ-CONN-MICROSOFT-3|I2-SANJ-SANJ-100GE-192368",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9393",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/11/0",
+			"remote_links": [
+			],
+			"node_name": "agg3.sanj.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128099",
+			"description": "PDPSANJ-CONN-AWS-1|I2-SANJ-SANJ-10GE-192409",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9393",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/12/0",
+			"remote_links": [
+			],
+			"node_name": "agg3.sanj.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1413",
+				"status": "active",
+				"name": "Azure",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128103",
+			"description": "PDPSANJ-CONN-MICROSOFT-1|I2-SANJ-SANJ-10GE-190038",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9393",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/12/2",
+			"remote_links": [
+			],
+			"node_name": "agg3.sanj.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128105",
+			"description": "PDPSANJ-CONN-AWS-2|I2-SANJ-SANJ-10GE-190994",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9393",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "Bundle-Ether110",
+			"remote_links": [
+			],
+			"node_name": "agg4.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1411",
+				"status": "active",
+				"name": "GCP",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S192114",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127801",
+			"description": "PDPASHB-CONN-GOOGLE-210G",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9395",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "Bundle-Ether5",
+			"remote_links": [
+			],
+			"node_name": "agg4.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1411",
+				"status": "active",
+				"name": "GCP",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S192114",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128274",
+			"description": "PDPASHB-CONN-GOOGLE-4100G|I2-ASHB-ASHB-LAG-193946",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9395",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "Bundle-Ether6",
+			"remote_links": [
+			],
+			"node_name": "agg4.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1508",
+				"status": "active",
+				"name": "Oracle",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": null,
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128347",
+			"description": "PDPASHB-CONN-ORACLE-4100G|I2-ASHB-ASHB-LAG-193961",
+			"is_owner": 0,
+			"vlan_tag_range": "100-4094",
+			"node_id": "9395",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/4",
+			"remote_links": [
+			],
+			"node_name": "agg4.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1413",
+				"status": "active",
+				"name": "Azure",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127851",
+			"description": "PDPASHB-CONN-MICROSOFT-8|I2-ASHB-ASHB-100GE-195000",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9395",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/11/1",
+			"remote_links": [
+			],
+			"node_name": "agg4.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1413",
+				"status": "active",
+				"name": "Azure",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127808",
+			"description": "PDPASHB-CONN-MICROSOFT-4|I2-ASHB-ASHB-10GE-191911",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9395",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/11/3",
+			"remote_links": [
+			],
+			"node_name": "agg4.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127810",
+			"description": "PDPASHB-CONN-AWS-8|I2-ASHB-ASHB-10GE-190958",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9395",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/12/1",
+			"remote_links": [
+			],
+			"node_name": "agg4.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1413",
+				"status": "active",
+				"name": "Azure",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127812",
+			"description": "PDPASHB-CONN-MICROSOFT-5|I2-ASHB-ASHB-10GE-191907",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9395",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/12/2",
+			"remote_links": [
+			],
+			"node_name": "agg4.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127813",
+			"description": "PDPASHB-CONN-AWS-10|I2-ASHB-ASHB-10GE-192179",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9395",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/12/3",
+			"remote_links": [
+			],
+			"node_name": "agg4.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1413",
+				"status": "active",
+				"name": "Azure",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127814",
+			"description": "PDPASHB-CONN-MICROSOFT-6|I2-ASHB-ASHB-10GE-184191",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9395",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/13/0",
+			"remote_links": [
+			],
+			"node_name": "agg4.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127815",
+			"description": "PDPASHB-CONN-AWS-11|I2-ASHB-ASHB-10GE-192566",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9395",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/14/0",
+			"remote_links": [
+			],
+			"node_name": "agg4.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127819",
+			"description": "PDPASHB-CONN-AWS-15|I2-ASHB-ASHB-10GE-193919dxcon-fgdrfpga",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9395",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "Bundle-Ether122",
+			"remote_links": [
+			],
+			"node_name": "agg4.dall3.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1411",
+				"status": "active",
+				"name": "GCP",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S192114",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128047",
+			"description": "PDPDALL3-CONN-GOOGLE-210G",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9397",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/11/0",
+			"remote_links": [
+			],
+			"node_name": "agg4.dall3.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1413",
+				"status": "active",
+				"name": "Azure",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128049",
+			"description": "PDPDALL3-CONN-MICROSOFT-4|I2-DALL3-DALL3-10GE-193702",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9397",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/11/3",
+			"remote_links": [
+			],
+			"node_name": "agg4.dall3.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128052",
+			"description": "PDPDALL3-CONN-AWS-7|I2-DALL3-DALL3-10GE-193917dxcon-fg6yv1az",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9397",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/14/0",
+			"remote_links": [
+			],
+			"node_name": "agg4.dall3.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1413",
+				"status": "active",
+				"name": "Azure",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128061",
+			"description": "PDPDALL3-CONN-MICROSOFT-3|I2-DALL3-DALL3-10GE-187233",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9397",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/14/2",
+			"remote_links": [
+			],
+			"node_name": "agg4.dall3.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128063",
+			"description": "PDPDALL3-CONN-AWS-5|I2-DALL3-DALL3-10GE-190993",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9397",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "Bundle-Ether100",
+			"remote_links": [
+			],
+			"node_name": "agg4.eqch.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1411",
+				"status": "active",
+				"name": "GCP",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S192114",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127751",
+			"description": "PDPEQCH-CONN-GOOGLE-210G",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9392",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/10/2",
+			"remote_links": [
+			],
+			"node_name": "agg4.eqch.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127755",
+			"description": "PDPEQCH-CONN-AWS-2|I2-EQCH-EQCH-10GE-186566",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9392",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/11/0",
+			"remote_links": [
+			],
+			"node_name": "agg4.eqch.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1413",
+				"status": "active",
+				"name": "Azure",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127757",
+			"description": "PDPEQCH-CONN-MICROSOFT-2|I2-EQCH-EQCH-10GE-185912",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9392",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/11/2",
+			"remote_links": [
+			],
+			"node_name": "agg4.eqch.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127759",
+			"description": "PDPEQCH-CONN-AWS-4|I2-EQCH-EQCH-10GE-193922dxcon-fgekvoo1",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9392",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "Bundle-Ether110",
+			"remote_links": [
+			],
+			"node_name": "agg4.sanj.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1411",
+				"status": "active",
+				"name": "GCP",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S192114",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127857",
+			"description": "PDPSANJ-CONN-GOOGLE-210G",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9394",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/3",
+			"remote_links": [
+			],
+			"node_name": "agg4.sanj.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1413",
+				"status": "active",
+				"name": "Azure",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127894",
+			"description": "PDPSANJ-CONN-MICROSOFT-2|I2-SANJ-SANJ-100GE-192369",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9394",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/11/2",
+			"remote_links": [
+			],
+			"node_name": "agg4.sanj.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127861",
+			"description": "PDPSANJ-CONN-AWS-4|I2-SANJ-SANJ-10GE-189728",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9394",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/12/0",
+			"remote_links": [
+			],
+			"node_name": "agg4.sanj.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1413",
+				"status": "active",
+				"name": "Azure",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127863",
+			"description": "PDPSANJ-CONN-MICROSOFT-4|I2-SANJ-SANJ-10GE-190796",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9394",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/12/2",
+			"remote_links": [
+			],
+			"node_name": "agg4.sanj.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1381",
+				"status": "active",
+				"name": "AWS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190140",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127865",
+			"description": "PDPSANJ-CONN-AWS-5|I2-SANJ-SANJ-10GE-192411",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9394",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/27",
+			"remote_links": [
+			],
+			"node_name": "core1.alba.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "461",
+				"status": "active",
+				"name": "Performance Assuranc",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "400",
+				"external_id": "I2-S192139",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "126728",
+			"description": "pas.alba:ens3f0",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9370",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/30/1",
+			"remote_links": [
+			],
+			"node_name": "core1.alba.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "751",
+				"status": "active",
+				"name": "UNH",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S11630",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "126714",
+			"description": "PDPALBA-CONN-UNH-1|I2-ALBA-ALBA-10GE-11621",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9370",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/30/2",
+			"remote_links": [
+			],
+			"node_name": "core1.alba.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "741",
+				"status": "active",
+				"name": "Dartmouth",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S11631",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "126715",
+			"description": "PDPALBA-CONN-DART-1|I2-ALBA-ALBA-10GE-11619",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9370",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/30/3",
+			"remote_links": [
+			],
+			"node_name": "core1.alba.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "761",
+				"status": "active",
+				"name": "UMS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S11629",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "126716",
+			"description": "PDPALBA-CONN-UMS-1|I2-ALBA-ALBA-10GE-11620",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9370",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/30/0",
+			"remote_links": [
+			],
+			"node_name": "core1.ashb.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1261",
+				"status": "active",
+				"name": "AbbVie",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S67949",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124568",
+			"description": "PDPASHB-CONN-ABBVIE-1|I2-ASHB-ASHB-10GE-71689",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9326",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/24",
+			"remote_links": [
+			],
+			"node_name": "core1.atla.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1281",
+				"status": "active",
+				"name": "MissiON",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S71048",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124878",
+			"description": "PDPATLA-CONN-MISSION-1|I2-ATLA-ATLA-100GE-188200[UNRESPONSIVE]",
+			"is_owner": 0,
+			"vlan_tag_range": "1-2007,2010-4095",
+			"node_id": "9332",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/26",
+			"remote_links": [
+			],
+			"node_name": "core1.atla.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "291",
+				"status": "active",
+				"name": "Clemson",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10683",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "124880",
+			"description": "PDPATLA-CONN-C-LIGHT-1|I2-ATLA-ATLA-100GE-9116",
+			"is_owner": 0,
+			"vlan_tag_range": "859-860",
+			"node_id": "9332",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/32/0",
+			"remote_links": [
+			],
+			"node_name": "core1.atla.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1458",
+				"status": "active",
+				"name": "Emory",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S192112",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124870",
+			"description": "PDPATLA-CONN-EMORY-1|I2-ATLA-ATLA-10GE-191848",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9332",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "Bundle-Ether250",
+			"remote_links": [
+			],
+			"node_name": "core1.char.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1001",
+				"status": "active",
+				"name": "MCNC",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S13640",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128271",
+			"description": "PDPCHAR-CONN-MCNC-22x100G|I2-CHAR-CHAR-LAG-193940",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9372",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/16",
+			"remote_links": [
+			],
+			"node_name": "core1.chic.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1131",
+				"status": "active",
+				"name": "MERIT",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S54597",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124126",
+			"description": "PDPCHIC-CONN-MERIT-1|I2-CHIC-CHIC-100GE-195001",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9318",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/32/1",
+			"remote_links": [
+			],
+			"node_name": "core1.chic.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1455",
+				"status": "active",
+				"name": "University of Memphi",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S191823",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124120",
+			"description": "PDPCHIC-SMN-3|I2-CHIC-CHIC-10GE-193933",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9318",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/24",
+			"remote_links": [
+			],
+			"node_name": "core1.cinc.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "171",
+				"status": "active",
+				"name": "OARnet",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10661",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "124168",
+			"description": "PDPCINC-CONN-OARNET-1|I2-CINC-CINC-100GE-53378",
+			"is_owner": 0,
+			"vlan_tag_range": "100-4089",
+			"node_id": "9319",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/25",
+			"remote_links": [
+			],
+			"node_name": "core1.hart2.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "961",
+				"status": "active",
+				"name": "CEN",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S12546",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "126836",
+			"description": "PDPHART2-CONN-CEN-1|I2-HART2-HART2-100GE-12551",
+			"is_owner": 0,
+			"vlan_tag_range": "746-750,1000-2999,3101-4089",
+			"node_id": "9373",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "FourHundredGigE0/0/0/8",
+			"remote_links": [
+			],
+			"node_name": "core1.jack.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "231",
+				"status": "active",
+				"name": "FLR",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10665",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "126905",
+			"description": "PDPJACK-CONN-FLR-2|I2-JACK-JACK-400GE-198717",
+			"is_owner": 0,
+			"vlan_tag_range": "320-330,985-989,1000-1009,1779-1799,1960-1970,2038,2710-2719,3785-3799,3890-3896",
+			"node_id": "9374",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/28",
+			"remote_links": [
+			],
+			"node_name": "core1.jcsn.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1281",
+				"status": "active",
+				"name": "MissiON",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S71048",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "126915",
+			"description": "PDPJCSN-CONN-MISSION-1|I2-JCSN-JCSN-100GE-197826",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9375",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/29",
+			"remote_links": [
+			],
+			"node_name": "core1.jcsn.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "511",
+				"status": "active",
+				"name": "LONI",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10677",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "126916",
+			"description": "PDPJCSN-CONN-LONI-1|I2-JCSN-JCSN-100GE-198660|I2-S198661",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9375",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/12",
+			"remote_links": [
+			],
+			"node_name": "core1.kans.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "541",
+				"status": "active",
+				"name": "SCinet",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S14823",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "128222",
+			"description": "[dtn-pas]dtn-pas.kans",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9368",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/13",
+			"remote_links": [
+			],
+			"node_name": "core1.kans.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "541",
+				"status": "active",
+				"name": "SCinet",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S14823",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "128223",
+			"description": "AVAILABLE|[NO-MONITOR]",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9368",
+			"operational_state": "down"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/14",
+			"remote_links": [
+			],
+			"node_name": "core1.kans.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "541",
+				"status": "active",
+				"name": "SCinet",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S14823",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "128224",
+			"description": "AVAILABLE|[NO-MONITOR]",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9368",
+			"operational_state": "down"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/15",
+			"remote_links": [
+			],
+			"node_name": "core1.kans.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "541",
+				"status": "active",
+				"name": "SCinet",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S14823",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "128225",
+			"description": "AVAILABLE|[NO-MONITOR]",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9368",
+			"operational_state": "down"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/24",
+			"remote_links": [
+			],
+			"node_name": "core1.kans.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "311",
+				"status": "active",
+				"name": "GPN",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10670",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "126642",
+			"description": "PDPKANS-CONN-GPN-1|I2-KANS-KANS-100GE-192710",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9368",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/24",
+			"remote_links": [
+			],
+			"node_name": "core1.lasv.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "501",
+				"status": "active",
+				"name": "UEN",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10676",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "126949",
+			"description": "PDPLASV-CONN-UETN-1|I2-LASV-LASV-100GE-187573",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9376",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/12",
+			"remote_links": [
+			],
+			"node_name": "core1.losa.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "541",
+				"status": "active",
+				"name": "SCinet",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S14823",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "128218",
+			"description": "PDPLOSA-CONN-SC21-1SC21CENICAL2SNo.1[NO-MONITOR]",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9321",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/13",
+			"remote_links": [
+			],
+			"node_name": "core1.losa.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "541",
+				"status": "active",
+				"name": "SCinet",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S14823",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "128219",
+			"description": "PDPLOSA-CONN-SC21-2SC21CENICAL2SNo.2[NO-MONITOR]",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9321",
+			"operational_state": "down"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/28",
+			"remote_links": [
+			],
+			"node_name": "core1.losa.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "701",
+				"status": "active",
+				"name": "PacWave",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "50",
+				"external_id": "I2-S11551",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124257",
+			"description": "PDPLOSA-CONN-PACWAVE-1|I2-LOSA-LOSA-100GE-11550",
+			"is_owner": 0,
+			"vlan_tag_range": "3785",
+			"node_id": "9321",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/24",
+			"remote_links": [
+			],
+			"node_name": "core1.minn.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1454",
+				"status": "active",
+				"name": "Northern Lights Giga",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S192129",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127970",
+			"description": "PDPMINN-CONN-NLIGHTS-1|I2-MINN-MINN-100GE-54693",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9398",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/25",
+			"remote_links": [
+			],
+			"node_name": "core1.miss.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1011",
+				"status": "active",
+				"name": "UMontana",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190148",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127028",
+			"description": "PDPMISS-CONN-UMT-2|I2-MISS-MISS-100GE-198844",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9378",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/24",
+			"remote_links": [
+			],
+			"node_name": "core1.nash.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "521",
+				"status": "active",
+				"name": "SoX",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10678",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "126326",
+			"description": "PDPNASH-CONN-SOX-1|I2-NASH-NASH-100GE-189773",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9360",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/34/1",
+			"remote_links": [
+			],
+			"node_name": "core1.nash.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1455",
+				"status": "active",
+				"name": "University of Memphi",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S191823",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "126323",
+			"description": "PDPNASH-CONN-UMEM-1|I2-MEMP-NASH-10GE-197626",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9360",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "Bundle-Ether240",
+			"remote_links": [
+			],
+			"node_name": "core1.newy32aoa.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1423",
+				"status": "active",
+				"name": "NJEdge",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S192141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "125095",
+			"description": "PDPNEWY32AOA-CONN-EDGE-1100G",
+			"is_owner": 0,
+			"vlan_tag_range": "2703-2789",
+			"node_id": "9337",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/32/1",
+			"remote_links": [
+			],
+			"node_name": "core1.newy32aoa.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "561",
+				"status": "active",
+				"name": "MANLAN",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10680",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "125100",
+			"description": "PDPNEWY32AOA-CONN-ANKABUT-1",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9337",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/30",
+			"remote_links": [
+			],
+			"node_name": "core1.phil.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1423",
+				"status": "active",
+				"name": "NJEdge",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S192141",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127107",
+			"description": "PDPPHIL-CONN-EDGE-1|I2-PHIL-PHIL-100GE-190346",
+			"is_owner": 0,
+			"vlan_tag_range": "2703-2789",
+			"node_id": "9380",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/24",
+			"remote_links": [
+			],
+			"node_name": "core1.phoe.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "781",
+				"status": "active",
+				"name": "SunCorridor",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S12120",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127139",
+			"description": "PDPPHOE-CONN-SUNCOR-1|I2-PHOE-PHOE-100GE-13067",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4089",
+			"node_id": "9381",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/26",
+			"remote_links": [
+			],
+			"node_name": "core1.pitt.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1161",
+				"status": "active",
+				"name": "UPITT",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S55349",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127293",
+			"description": "PDPPITT-CONN-UPITT-1|I2-PITT-PITT-100GE-55314",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4089",
+			"node_id": "9382",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/24",
+			"remote_links": [
+			],
+			"node_name": "core1.port.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1201",
+				"status": "active",
+				"name": "Oregon GigaPOP",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "64",
+				"external_id": "I2-S55819",
+				"type": "normal",
+				"max_mac_address_per_end": "100"
+			},
+			"interface_id": "127253",
+			"description": "AVAILABLE100GLR4OPTIC|[NO-MONITOR]",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9383",
+			"operational_state": "down"
+		},
+		{
+			"interface_name": "Bundle-Ether250",
+			"remote_links": [
+			],
+			"node_name": "core1.rale.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1001",
+				"status": "active",
+				"name": "MCNC",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S13640",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "128272",
+			"description": "PDPRALE-CONN-MCNC-22x100G|I2-RALE-RALE-LAG-193941",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9384",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/24",
+			"remote_links": [
+			],
+			"node_name": "core1.salt.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "501",
+				"status": "active",
+				"name": "UEN",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10676",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "126478",
+			"description": "PDPSALT-CONN-UETN-1|I2-SALT-SALT-100GE-10727",
+			"is_owner": 0,
+			"vlan_tag_range": "500,2000-2089,3551-3600",
+			"node_id": "9364",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/31",
+			"remote_links": [
+			],
+			"node_name": "core1.salt.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "461",
+				"status": "active",
+				"name": "Performance Assuranc",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "400",
+				"external_id": "I2-S192139",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "126485",
+			"description": "pas.salt:ens3f0",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9364",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/24",
+			"remote_links": [
+			],
+			"node_name": "core1.seat.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "361",
+				"status": "active",
+				"name": "PNWGP",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10671",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "125465",
+			"description": "PDPSEAT-CONN-PNWGP-1|I2-SEAT-SEAT-100GE-9310",
+			"is_owner": 0,
+			"vlan_tag_range": "990,2317-2320,2336-2360,4010-4014",
+			"node_id": "9343",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/34/1",
+			"remote_links": [
+			],
+			"node_name": "core1.seat.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "651",
+				"status": "active",
+				"name": "NOAA",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S11365",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "125460",
+			"description": "PDPSEAT-CONN-NOAA-1|I2-SEAT-SEAT-10GE-55808",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4089",
+			"node_id": "9343",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "FourHundredGigE0/0/0/17",
+			"remote_links": [
+			],
+			"node_name": "core1.star.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "541",
+				"status": "active",
+				"name": "SCinet",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S14823",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "127351",
+			"description": "AVAILABLE-NOOPTIC|[NO-MONITOR]",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9386",
+			"operational_state": "down"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/18",
+			"remote_links": [
+			],
+			"node_name": "core1.star.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "541",
+				"status": "active",
+				"name": "SCinet",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S14823",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "128215",
+			"description": "PDPSTAR-CONN-SC21-2SC21StarLightAL2SNo.1[NO-MONITOR]",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9386",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/19",
+			"remote_links": [
+			],
+			"node_name": "core1.star.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "541",
+				"status": "active",
+				"name": "SCinet",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S14823",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "128216",
+			"description": "PDPSTAR-CONN-SC21-3SC21StarLightAL2SNo.2[NO-MONITOR]",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9386",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/24",
+			"remote_links": [
+			],
+			"node_name": "core1.star.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "601",
+				"status": "active",
+				"name": "CIC OmniPOP",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10691",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "127332",
+			"description": "PDPSTAR-CONN-BTAA-1|I2-STAR-STAR-100GE-10491",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4089",
+			"node_id": "9386",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/29",
+			"remote_links": [
+			],
+			"node_name": "core1.star.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "531",
+				"status": "active",
+				"name": "MREN",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S11530",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "127337",
+			"description": "PDPSTAR-CONN-MREN-2|I2-STAR-STAR-100GE-193969",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4089",
+			"node_id": "9386",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/24",
+			"remote_links": [
+			],
+			"node_name": "core1.sunn.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1341",
+				"status": "active",
+				"name": "ROCHE",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S190146",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "126557",
+			"description": "PDPSUNN-CONN-ROCHE-1|I2-SUNN-SUNN-100GE-185128",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9366",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/24",
+			"remote_links": [
+			],
+			"node_name": "core1.tucs.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "781",
+				"status": "active",
+				"name": "SunCorridor",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S12120",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127405",
+			"description": "PDPTUCS-CONN-SUNCOR-1|I2-TUCS-TUCS-100GE-12123",
+			"is_owner": 0,
+			"vlan_tag_range": "300-399,750,1752-1753",
+			"node_id": "9388",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/28",
+			"remote_links": [
+			],
+			"node_name": "core1.wash.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1482",
+				"status": "active",
+				"name": "FABRIC",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S192628",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "127498",
+			"description": "PDP WASH-CONN-FABRIC-1",
+			"is_owner": 0,
+			"vlan_tag_range": "3000-3019",
+			"node_id": "9390",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/24",
+			"remote_links": [
+			],
+			"node_name": "core2.atla.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "521",
+				"status": "active",
+				"name": "SoX",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10678",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "124838",
+			"description": "PDP ATLA-CONN-SOX-1",
+			"is_owner": 0,
+			"vlan_tag_range": "650,1500-1505,1711-1720,3401-3410",
+			"node_id": "9333",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/32/2",
+			"remote_links": [
+			],
+			"node_name": "core2.atla.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "651",
+				"status": "active",
+				"name": "NOAA",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S11365",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "124832",
+			"description": "PDP ATLA-CONN-NOAA-1 NOAA management [NO-MONITOR]",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9333",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/26",
+			"remote_links": [
+			],
+			"node_name": "core2.chic.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "281",
+				"status": "active",
+				"name": "ESnet",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10669",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "124214",
+			"description": "PDPCHIC-CONN-ESNET-1|I2-CHIC-CHIC-100GE-9028",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4089",
+			"node_id": "9320",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/28",
+			"remote_links": [
+			],
+			"node_name": "core2.chic.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "601",
+				"status": "active",
+				"name": "CIC OmniPOP",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10691",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "124216",
+			"description": "PDPCHIC-CONN-BTAA-1|I2-CHIC-CHIC-100GE-57575",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9320",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/24",
+			"remote_links": [
+			],
+			"node_name": "core2.cinc.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "521",
+				"status": "active",
+				"name": "SoX",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10678",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "124919",
+			"description": "PDPCINC-CONN-OARNET-3|I2-CINC-CINC-100GE-198957|I2-S198960[PENDING][Kanban9316]",
+			"is_owner": 0,
+			"vlan_tag_range": "2-4095",
+			"node_id": "9334",
+			"operational_state": "down"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/24",
+			"remote_links": [
+			],
+			"node_name": "core2.clev.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "981",
+				"status": "active",
+				"name": "NYSERNet",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "20",
+				"external_id": "I2-S12988",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "126006",
+			"description": "PDPCLEV-CONN-NYSERNET-1|I2-CLEV-CLEV-100GE-54201",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4089",
+			"node_id": "9352",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/26",
+			"remote_links": [
+			],
+			"node_name": "core2.clev.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "171",
+				"status": "active",
+				"name": "OARnet",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10661",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "126008",
+			"description": "PDPCLEV-CONN-OARNET-1|I2-CLEV-CLEV-100GE-8803",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9352",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/32/0",
+			"remote_links": [
+			],
+			"node_name": "core2.denv.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "1051",
+				"status": "active",
+				"name": "USDA - ARS",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "40",
+				"external_id": "I2-S50731",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "126078",
+			"description": "PDPDENV-CONN-USDA-1|I2-DENV-DENV-10GE-51431",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9354",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "TenGigE0/0/0/32/1",
+			"remote_links": [
+			],
+			"node_name": "core2.denv.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "371",
+				"status": "active",
+				"name": "GRNOC Internet2 Rese",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10736",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "126079",
+			"description": "PDPDENV-CONN-GEANT-1|I2-DENV-DENV-10GE-57974",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4089",
+			"node_id": "9354",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/26",
+			"remote_links": [
+			],
+			"node_name": "core2.hous.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "511",
+				"status": "active",
+				"name": "LONI",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10677",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "126210",
+			"description": "PDPHOUS-CONN-LONI-1|I2-HOUS-HOUS-100GE-196622",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4095",
+			"node_id": "9357",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/24",
+			"remote_links": [
+			],
+			"node_name": "core2.seat.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "701",
+				"status": "active",
+				"name": "PacWave",
+				"max_circuit_endpoints": "10",
+				"description": "",
+				"max_circuits": "50",
+				"external_id": "I2-S11551",
+				"type": "normal",
+				"max_mac_address_per_end": "10"
+			},
+			"interface_id": "125504",
+			"description": "PDPSEAT-CONN-PACWAVE-1|I2-SEAT-SEAT-100GE-11637",
+			"is_owner": 0,
+			"vlan_tag_range": "824,2820-2829,3780",
+			"node_id": "9344",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "HundredGigE0/0/0/24",
+			"remote_links": [
+			],
+			"node_name": "core2.sunn.net.internet2.edu",
+			"owning_workgroup": {
+				"workgroup_id": "281",
+				"status": "active",
+				"name": "ESnet",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S10669",
+				"type": "normal",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "126599",
+			"description": "PDPSUNN-CONN-ESNET-1|I2-SUNN-SUNN-100GE-9031",
+			"is_owner": 0,
+			"vlan_tag_range": "1-4089",
+			"node_id": "9367",
+			"operational_state": "up"
+		},
+		{
+			"interface_name": "eth15/1",
+			"remote_links": [
+			],
+			"node_name": "sdn-sw.losa.net.internet2.eduold",
+			"owning_workgroup": {
+				"workgroup_id": "11",
+				"status": "active",
+				"name": "GRNOC",
+				"max_circuit_endpoints": "8",
+				"description": "",
+				"max_circuits": "100",
+				"external_id": "I2-S193834",
+				"type": "admin",
+				"max_mac_address_per_end": "4"
+			},
+			"interface_id": "391",
+			"description": "AVAILABLE (was nddi-sw.losa, 20) ",
+			"is_owner": 0,
+			"vlan_tag_range": "-1,1-4089",
+			"node_id": "11",
+			"operational_state": "down"
+		}
+	]
+}
